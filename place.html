@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>place</title>
+</head>
+<body>
+    <select name="" id="province"></select>
+    <select name="" id="city"></select>
+    <script src="cityjson.js"></script>
+    <script src="place.js"></script>
+    <script>
+        new Place({
+            province: document.getElementById('province'),
+            city: document.getElementById('city')
+        });
+    </script>
+</body>
+</html>
